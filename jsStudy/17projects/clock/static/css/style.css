@@ -1,10 +1,23 @@
-body{
+body {
     background-color: black;
 }
 
-.clock{
+.clock {
     position: absolute;
     top: 50%;
     left: 50%;
+    /*
+    The reason why transform: translate(-50%, -50%) is required is because you 
+    want the center of the element to line up with the center of its parent. 
+    In simple terms, it can be boiled down to translateX(-50%) translateY(-50%), 
+    which means:
+    1. move me leftwards by 50% of my width, along the x-axis, and
+    2. move me upwards by 50% of my height, along the y-axis
+    
+    */
     transform: translateX(-50%) translateY(-50%);
+    color:bisque;
+    font-size: 5em;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 10px;
 }
