@@ -1,0 +1,35 @@
+.container {
+    border: 2px solid rgb(28, 42, 53);
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.flex-box-title-btn {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.flex-box-title-btn h1 {
+    font-weight: bold;
+}
+
+
+.flex-box-rps {
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 10px;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 0px 5px 20px rgba(36, 50, 247, 0.75);
+    border: 5px solid rgb(217, 255, 0);
+}

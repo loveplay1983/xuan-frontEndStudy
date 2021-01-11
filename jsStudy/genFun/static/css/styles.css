@@ -1,0 +1,33 @@
+.container {
+    border: 2px solid rgb(60, 56, 110);
+    width: 100%; 
+    margin: 20px auto;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.container h1 {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-box-container {
+    display: flex;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box-container img {
+    width:175px;
+    height:165px;
+    border: 10px solid rgb(250, 248, 248);
+    margin: 10px;
+    box-shadow: 5px 10px 30px rgba(20, 10, 50, .7);
+}

@@ -1,0 +1,20 @@
+.container {
+    border: 2px solid rgb(60, 56, 110);
+    width: 70%; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h1 {
+    font-weight: bold;  
+}   
+
+.flex-box-change-color {
+    /* border: 2px solid black; */
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}

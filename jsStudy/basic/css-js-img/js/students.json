@@ -1,0 +1,18 @@
+{
+    "students": [
+        {
+            "name": "Xuan",
+            "age": 38,
+            "height": 168
+        },
+        {
+            "name": "Chen",
+            "age": 46,
+            "height": 178
+        }
+    ],
+
+    "A1" :  100,
+    
+    "A2" :  "hello world!!!"
+}
