@@ -1,0 +1,13 @@
+body {
+    background: #213769;
+}
+
+canvas {
+    margin: 0 50 100 300;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #213769;
+
+
+}

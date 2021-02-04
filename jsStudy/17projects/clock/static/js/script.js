@@ -26,10 +26,12 @@ function js_clock() {
     // the final display of the clock
     var time = hour + ":" + min + ":" + sec + "-" + session;
 
-    document.getElementById("clock-display").innerText = time;
-    document.getElementById("clock-display").textConten = time;
+    // document.getElementById("clock-display").innerText = time;
+    document.getElementById("clock-display").textContent = time;
     
-    setTimeout(js_clock, 1000);
+    setInterval(js_clock, 1000);   // execute js_clock after 1 second
+    // setTimeout(js_clock, 1000);   // execute js_clock after 1 second
+
     
 }
 

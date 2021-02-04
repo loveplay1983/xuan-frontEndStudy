@@ -45,7 +45,7 @@ window.onload = function () {
         tens++;
 
         if (tens < 9) {
-            appendTens.innerHTML = "0" + tens;  // if tens less than 0 then it show str "0" + tens(initially is 0), it ens up 00
+            appendTens.innerHTML = "0" + tens;  // if tens less than 9 then it show str "0" + tens(initially is 0), it ens up 00
         }
 
         if (tens > 9) {
